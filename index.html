@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript - functions</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__menu menu">
+                    <a href="" class="header__logo">IK ART</a>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#home" class="menu__link">Articles</a></li>
+                            <li class="menu__item"><a href="#about" class="menu__link">About Me</a></li>
+                            <li class="menu__item"><a href="#price" class="menu__link">Pricing Table</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="menu__icon icon-menu"><span></span></button>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="articles">
+                <div class="articles__container">
+                    <h1 class="articles__title">Articles</h1>
+                    <div class="articles__filter filter-articles">
+                        <button type="button" data-filter="*" class="filter-articles__item active">Show all</button>
+                        <button type="button" data-filter="tech" class="filter-articles__item">Technology</button>
+                        <button type="button" data-filter="culture" class="filter-articles__item">Culter</button>
+                    </div>
+                    <div class="articles__items">
+                        <article data-filter="tech" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/01.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article data-filter="culture" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/02.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article data-filter="tech" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/03.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article data-filter="culture" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/04.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article data-filter="tech" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/05.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article data-filter="culture" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/06.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article data-filter="tech" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/07.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article data-filter="culture" class="articles__item article">
+                            <a href="#" class="article__image"><img src="img/08.jpg" alt="Image"></a>
+                            <div class="article__body">
+                                <div class="article__date">29.Jun.2021</div>
+                                <h4 class="article__title">
+                                    <a href="#" class="article__link-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eos.</a>
+                                </h4>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-text">
+                All rights reserved @ Ilona Koroman arts
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</body>
+</html>
+
